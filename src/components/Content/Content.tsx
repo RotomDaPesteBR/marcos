@@ -31,15 +31,15 @@ export default function Hero() {
       <Pamonha>
         <PamonhaContainer>
           <PamonhaTitle>PANACA</PamonhaTitle>
-          <PamonhaImg src="/panaca.png" alt="" draggable="false" />
+          <PamonhaImg src="./panaca.png" alt="" draggable="false" />
         </PamonhaContainer>
         <PamonhaContainer>
           <PamonhaTitle>PANONHA</PamonhaTitle>
-          <PamonhaImg src="/panonha.png" alt="" draggable="false" />
+          <PamonhaImg src="./panonha.png" alt="" draggable="false" />
         </PamonhaContainer>
       </Pamonha>
       <LighthouseContainer>
-        <Lighthouse src="/lighthouse.svg" />
+        <Lighthouse src="./lighthouse.svg" />
       </LighthouseContainer>
       <EuSei>
         <div>
@@ -52,7 +52,7 @@ export default function Hero() {
         <VictorLeft>
           <VictorContainer>
             <VictorImageContainer>
-              <VictorImg src="/victor.png" alt="" draggable="false" />
+              <VictorImg src="./victor.png" alt="" draggable="false" />
               <VictorBackground />
             </VictorImageContainer>
             <VictorSubtitle>VICTOR VITORIOSO</VictorSubtitle>
@@ -79,7 +79,7 @@ export default function Hero() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
-        <VideoEffect src="/video.svg" alt="" draggable="false" />
+        <VideoEffect src="./video.svg" alt="" draggable="false" />
       </VideoContainer>
       <Vitorioso>
         <VitoriosoButton type="button">

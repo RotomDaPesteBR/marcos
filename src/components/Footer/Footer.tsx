@@ -14,19 +14,19 @@ export default function Hero() {
     <Container>
       <Medias>
         <Link href="/">
-          <MediasImg src="/whatsapp.svg" alt="" draggable="false" />
+          <MediasImg src="./whatsapp.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="/instagram.svg" alt="" draggable="false" />
+          <MediasImg src="./instagram.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="/linkedin.svg" alt="" draggable="false" />
+          <MediasImg src="./linkedin.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="/youtube.svg" alt="" draggable="false" />
+          <MediasImg src="./youtube.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="/email.svg" alt="" draggable="false" />
+          <MediasImg src="./email.svg" alt="" draggable="false" />
         </Link>
       </Medias>
       <Info>
