@@ -14,19 +14,19 @@ export default function Hero() {
     <Container>
       <Medias>
         <Link href="/">
-          <MediasImg src="./whatsapp.svg" alt="" draggable="false" />
+          <MediasImg src="https://marcos-ruddy.vercel.app/whatsapp.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="./instagram.svg" alt="" draggable="false" />
+          <MediasImg src="https://marcos-ruddy.vercel.app/instagram.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="./linkedin.svg" alt="" draggable="false" />
+          <MediasImg src="https://marcos-ruddy.vercel.app/linkedin.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="./youtube.svg" alt="" draggable="false" />
+          <MediasImg src="https://marcos-ruddy.vercel.app/youtube.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">
-          <MediasImg src="./email.svg" alt="" draggable="false" />
+          <MediasImg src="https://marcos-ruddy.vercel.app/email.svg" alt="" draggable="false" />
         </Link>
       </Medias>
       <Info>
