@@ -14,7 +14,7 @@ export default function Hero() {
     <Container>
       <Header>
         <Logo>
-          <HeroImg src="https://marcos-ruddy.vercel.app/marcos.svg" alt="" draggable="false" />
+          <HeroImg src="/marcos.svg" alt="" draggable="false" />
         </Logo>
         <Contato>Contato</Contato>
       </Header>
