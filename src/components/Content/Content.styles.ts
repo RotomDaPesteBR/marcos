@@ -569,7 +569,7 @@ export const CarouselNameText = styled.div`
 
   @media (max-width: 500px) {
     font-size: 2.5vw;
-    line-height: 1.5vw;
+    line-height: 2vw;
     padding-top: 2vw;
   }
 `;
