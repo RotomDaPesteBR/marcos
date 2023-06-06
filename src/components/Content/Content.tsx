@@ -1,14 +1,36 @@
 import {
+  Carousel,
+  CarouselButton,
+  CarouselButtonImg,
+  CarouselContainer,
+  CarouselContent,
+  CarouselImage,
+  CarouselItem,
+  CarouselName,
+  CarouselNameSubtext,
+  CarouselNameText,
+  CarouselText,
+  CarouselTitle,
   Container,
   Dica,
   EuSei,
+  Galo,
+  GaloContainer,
   Highlight,
   Lighthouse,
   LighthouseContainer,
+  MarcosContainer,
+  MarcosDescription,
+  MarcosImg,
+  MarcosLeft,
+  MarcosRight,
+  MarcosTitle,
   Pamonha,
   PamonhaContainer,
   PamonhaImg,
   PamonhaTitle,
+  QuotationMarks,
+  SemiBold,
   Victor,
   VictorBackground,
   VictorContainer,
@@ -64,7 +86,7 @@ export default function Hero() {
       </Victor>
       <Dica>
         A primeira dica que eu posso te dar
-        <br />é que quem chegou lá{' '}
+        <br />é que quem chegou lá
         <Highlight>
           começou
           <br /> assistindo a esse vídeo
@@ -86,26 +108,73 @@ export default function Hero() {
           QUERO SER O VICTOR VITORIOSO
         </VitoriosoButton>
       </Vitorioso>
-      <div>
-        <img src="" alt="" draggable="false" />
-        <div>
-          <div>Afinal quem é Marcos Ferreira?</div>
-          <div>Descrição do Marcos</div>
-        </div>
-      </div>
-      <div>
-        <div>O que estão dizendo sobre mim</div>
-        <div>
-          <div>
-            Conheci o Marcos por indicação de uma amiga. Meu principal desafio
-            na comunicação era ter muito medo do julgamento, medo de errarem
-            público e por conta disso sempre me retraía perante as câmerase na
-            hora de falar. E a mentoria em Competência Comunicativa do Marcos
-            era exatamente o que eu estava buscando e precisando nomomento. Os
-            benefícios são claros!
-          </div>
-        </div>
-      </div>
+      <MarcosContainer>
+        <MarcosLeft>
+          <MarcosImg src="/marcos.png" alt="" draggable="false" />
+        </MarcosLeft>
+        <MarcosRight>
+          <MarcosTitle>
+            Afinal <SemiBold>quem</SemiBold> é<br />
+            <Highlight>
+              <SemiBold>Marcos Ferreira</SemiBold>
+            </Highlight>
+            ?
+          </MarcosTitle>
+          <MarcosDescription>Descrição do Marcos</MarcosDescription>
+        </MarcosRight>
+      </MarcosContainer>
+      <GaloContainer>
+        <Galo src="/galo.svg" alt="" draggable="false" />
+      </GaloContainer>
+      <CarouselContainer>
+        <CarouselTitle>O que estão dizendo sobre mim</CarouselTitle>
+        <Carousel>
+          <CarouselButton>
+            <CarouselButtonImg src="/left.svg" alt="" draggable="false" />
+          </CarouselButton>
+          <CarouselItem>
+            <CarouselImage src="/miss.png" alt="" draggable="false" />
+            <CarouselContent>
+              <QuotationMarks
+                src="/quotationmarks.svg"
+                alt=""
+                draggable="false"
+              />
+              <CarouselText>
+                Conheci o Marcos por indicação de uma
+                <br />
+                amiga. Meu principal desafio na comunicação
+                <br />
+                era ter muito medo do julgamento, medo de
+                <br />
+                errar em público e por conta disso sempre me
+                <br />
+                retraía perante as câmeras e na hora de falar.
+                <br />
+                E a mentoria em Competência Comunicativa
+                <br />
+                do Marcos era exatamente o que eu estava
+                <br />
+                buscando e precisando nomomento.
+                <br />
+                Os benefícios são claros!
+              </CarouselText>
+              <CarouselName>
+                <CarouselNameText>
+                  <Highlight>JÉSSICA CAROLINE</Highlight>
+                  <br />
+                  <CarouselNameSubtext>
+                    MISS BRASIL NUESTRA LATINA
+                  </CarouselNameSubtext>
+                </CarouselNameText>
+              </CarouselName>
+            </CarouselContent>
+          </CarouselItem>
+          <CarouselButton>
+            <CarouselButtonImg src="/right.svg" alt="" draggable="false" />
+          </CarouselButton>
+        </Carousel>
+      </CarouselContainer>
     </Container>
   );
 }
