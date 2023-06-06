@@ -39,7 +39,7 @@ export default function Hero() {
         info legais e etc
       </Info>
       <Foot>
-        <FooterImg src="Footer.svg" alt="" />
+        <FooterImg src="/footer.svg" alt="" />
         <FooterText>2023 © DESENVOLVIDO POR ICARUS BRANDS</FooterText>
       </Foot>
     </Container>
