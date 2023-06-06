@@ -327,12 +327,26 @@ export const Carousel = styled.div`
   margin-bottom: 10vw;
 `;
 
-export const CarouselButton = styled.div`
+export const CarouselLeftButton = styled.div`
   display: flex;
-  width: 100%;
   height: auto;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  width: 30vw;
+`;
+
+export const CarouselRightButton = styled.div`
+  display: flex;
+  height: auto;
+  justify-content: start;
+  align-items: center;
+  width: 30vw;
+`;
+
+export const CarouselButton = styled.button`
+  background: none;
+  border: none;
+  padding: 4vw;
 `;
 
 export const CarouselButtonImg = styled.img`

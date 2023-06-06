@@ -6,9 +6,11 @@ import {
   CarouselContent,
   CarouselImage,
   CarouselItem,
+  CarouselLeftButton,
   CarouselName,
   CarouselNameSubtext,
   CarouselNameText,
+  CarouselRightButton,
   CarouselText,
   CarouselTitle,
   Container,
@@ -129,9 +131,11 @@ export default function Hero() {
       <CarouselContainer>
         <CarouselTitle>O que estão dizendo sobre mim</CarouselTitle>
         <Carousel>
-          <CarouselButton>
-            <CarouselButtonImg src="/left.svg" alt="" draggable="false" />
-          </CarouselButton>
+          <CarouselLeftButton>
+            <CarouselButton>
+              <CarouselButtonImg src="/left.svg" alt="" draggable="false" />
+            </CarouselButton>
+          </CarouselLeftButton>
           <CarouselItem>
             <CarouselImage src="/miss.png" alt="" draggable="false" />
             <CarouselContent>
@@ -170,9 +174,11 @@ export default function Hero() {
               </CarouselName>
             </CarouselContent>
           </CarouselItem>
-          <CarouselButton>
-            <CarouselButtonImg src="/right.svg" alt="" draggable="false" />
-          </CarouselButton>
+          <CarouselRightButton>
+            <CarouselButton>
+              <CarouselButtonImg src="/right.svg" alt="" draggable="false" />
+            </CarouselButton>
+          </CarouselRightButton>
         </Carousel>
       </CarouselContainer>
     </Container>
