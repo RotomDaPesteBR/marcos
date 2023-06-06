@@ -6,6 +6,10 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.colors.text};
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 500px) {
+    height: 30vh;
+  }
 `;
 
 export const Medias = styled.div`
@@ -16,6 +20,10 @@ export const Medias = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 500px) {
+    margin-top: 2vw;
+  }
 `;
 
 export const MediasImg = styled.img`
@@ -25,6 +33,11 @@ export const MediasImg = styled.img`
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  @media (max-width: 500px) {
+    height: 8vw;
+    width: 8vw;
+  }
 `;
 
 export const Info = styled.div`
@@ -35,6 +48,10 @@ export const Info = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 1.5vw;
+
+  @media (max-width: 500px) {
+    font-size: 2.5vw;
+  }
 `;
 
 export const Foot = styled.div`
@@ -59,6 +76,10 @@ export const FooterText = styled.div`
   position: relative;
   font-size: 2vw;
   bottom: 3.5vw;
+
+  @media (max-width: 500px) {
+    font-size: 3vw;
+  }
 `;
 
 export const FooterImg = styled.img`

@@ -4,11 +4,15 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   color: ${({ theme }) => theme.colors.text};
+
+  @media (max-width: 500px) {
+    height: 50vh;
+  }
 `;
 
 export const Header = styled.div`
   width: 100%;
-  height: 10vh;
+  height: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,15 +20,23 @@ export const Header = styled.div`
   padding: 2rem;
   padding-left: 8vw;
   padding-right: 8vw;
+
+  @media (max-width: 500px) {
+    height: 20%;
+  }
 `;
 
 export const Logo = styled.div`
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: flex;
   padding: 1rem;
   flex-direction: row;
   align-items: center;
+
+  @media (max-width: 500px) {
+    height: 100%;
+  }
 `;
 
 export const Title = styled.div`
@@ -38,6 +50,10 @@ export const HeroImg = styled.img`
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  @media (max-width: 500px) {
+    height: 4vw;
+  }
 `;
 
 export const Contato = styled.button`
@@ -53,6 +69,11 @@ export const Contato = styled.button`
   border-radius: 50px;
   border-color: ${({ theme }) => theme.colors.primary};
   font-size: 2vw;
+
+  @media (max-width: 500px) {
+    height: 5vw;
+    font-size: 3vw;
+  }
 `;
 
 export const Content = styled.div`
@@ -64,6 +85,11 @@ export const Content = styled.div`
   align-items: center;
   font-size: 5vw;
   text-align: center;
+
+  @media (max-width: 500px) {
+    height: 60%;
+    font-size: 7vw;
+  }
 `;
 
 export const Subtitle = styled.div`
@@ -74,11 +100,15 @@ export const Subtitle = styled.div`
   text-align: center;
   color: ${({ theme }) => theme.colors.primary};
   font-style: italic;
+
+  @media (max-width: 500px) {
+    font-size: 6vw;
+  }
 `;
 
 export const Bottom = styled.div`
   width: 100%;
-  height: 10vh;
+  height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,4 +116,9 @@ export const Bottom = styled.div`
   font-size: 3vw;
   text-align: center;
   font-weight: 600;
+
+  @media (max-width: 500px) {
+    height: 20%;
+    font-size: 4.5vw;
+  }
 `;
