@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title />
+        <title>Marcos Ferreira | Competência Comunicativa</title>
         <meta name="description" content="" />
       </Head>
       <header>

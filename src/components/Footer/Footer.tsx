@@ -16,7 +16,7 @@ export default function Hero() {
         <Link href="/">
           <MediasImg src="/whatsapp.svg" alt="" draggable="false" />
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/olamarcosferreira/">
           <MediasImg src="/instagram.svg" alt="" draggable="false" />
         </Link>
         <Link href="/">

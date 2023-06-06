@@ -49,7 +49,7 @@ export default class MyDocument extends Document {
           />
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <link rel="icon" href="" />
+          <link rel="icon" href="logo.svg" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="" />
           <meta property="og:title" content="" />
