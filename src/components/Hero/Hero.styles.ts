@@ -35,6 +35,9 @@ export const Title = styled.div`
 export const HeroImg = styled.img`
   height: 3vw;
   width: auto;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const Contato = styled.button`

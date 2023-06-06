@@ -88,7 +88,7 @@ export default function Hero() {
       </Victor>
       <Dica>
         A primeira dica que eu posso te dar
-        <br />é que quem chegou lá
+        <br />é que quem chegou lá{' '}
         <Highlight>
           começou
           <br /> assistindo a esse vídeo
