@@ -193,6 +193,9 @@ export const VideoContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 5vw;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const Video = styled.iframe`
@@ -208,6 +211,9 @@ export const VideoEffect = styled.img`
   height: 40vw;
   position: absolute;
   z-index: -1;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const Vitorioso = styled.div`
@@ -266,6 +272,9 @@ export const MarcosImg = styled.img`
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const MarcosTitle = styled.div`
@@ -352,6 +361,9 @@ export const CarouselButton = styled.button`
 export const CarouselButtonImg = styled.img`
   height: 5vw;
   width: auto;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const CarouselItem = styled.div`
@@ -371,6 +383,9 @@ export const CarouselImage = styled.img`
   width: auto;
   position: relative;
   right: -0.75vw;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const CarouselContent = styled.div`
@@ -397,6 +412,9 @@ export const QuotationMarks = styled.img`
   left: 1vw;
   width: auto;
   position: absolute;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const CarouselText = styled.div`

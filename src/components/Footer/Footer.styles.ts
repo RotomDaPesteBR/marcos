@@ -22,6 +22,9 @@ export const MediasImg = styled.img`
   height: 5vw;
   width: 5vw;
   margin: 1.25vw;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 export const Info = styled.div`
@@ -54,7 +57,7 @@ export const FooterText = styled.div`
   justify-content: end;
   align-items: center;
   position: relative;
-  font-size: 3vw;
+  font-size: 2vw;
   bottom: 3.5vw;
 `;
 
@@ -64,4 +67,7 @@ export const FooterImg = styled.img`
   position: absolute;
   z-index: -1;
   bottom: 0;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
